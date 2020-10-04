@@ -43,6 +43,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonRegistrarVacuna = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.tabControlConsultas.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -51,6 +52,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCantidadRazaEspecie)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCantidadVacunaEspecie)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // eventLog1
@@ -144,10 +146,19 @@
             this.buttonRegistrarVacuna.UseVisualStyleBackColor = true;
             this.buttonRegistrarVacuna.Click += new System.EventHandler(this.buttonRegistrarVacuna_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProgramaMascotas.Properties.Resources.cropped_Mascotas_Saint_Daniel_ICONO;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // FormularioVacunas
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonRegistrarVacuna);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
@@ -167,6 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCantidadRazaEspecie)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCantidadVacunaEspecie)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,6 +200,7 @@
         private System.Windows.Forms.DataGridView dataGridViewInfoMascota;
         private System.Windows.Forms.DataGridView dataGridViewCantidadRazaEspecie;
         private System.Windows.Forms.DataGridView dataGridViewCantidadVacunaEspecie;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

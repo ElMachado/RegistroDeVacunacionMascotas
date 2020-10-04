@@ -76,5 +76,13 @@ namespace ProgramaMascotas
                 InicializaVisualizacionDatos();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(@" Realizadores: 
+                    Julian Camilo Hoyos Estrada 000318410
+                    Clemencia Giraldo Duque 000173411
+                    Jesús David Arroyo Machado 000318389");
+        }
     }
 }
